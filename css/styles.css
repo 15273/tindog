@@ -1,0 +1,173 @@
+body{
+    font-family: "Montserrat-Black";
+}
+
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+h1, h2, h4, h3, h5{
+    font-family: "Montserrat-Bold";
+}
+h1{
+
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+h2{
+    
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    margin-top: 1%;
+    padding: 0px 10px 0px 0px;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+
+/* 
+Navigation Bar 
+*/
+
+.navbar {
+    padding: 0 0 4.5rem;
+
+}
+/* titel image */
+
+.title-image {
+    width: 15rem;
+    right: 20rem;
+    transform: rotate(25deg);
+    position: absolute;
+}
+@media (max-width: 1024px){
+
+    .title-image {
+        width: 60%;
+        text-align: center;
+       position:static;
+       transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+        
+    }
+/* features */
+
+#features{
+    background-color: #fff;
+    padding: 7% 15%;
+    position: relative;
+}
+
+.middel{
+    text-align: center;
+}
+
+
+.icon{
+    color: #cb5668;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+    margin-bottom: 1rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* download button*/
+.download button{
+    margin: 5% 3% 5% 0%;
+}
+
+/* testimonial section */
+
+#testimonials {
+    text-align: center;
+    background-color: #c5717d;
+    color: #fff;
+    
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testimonials-img{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+
+/* press */
+#press{
+    background-color: #c5717d;
+    text-align: center;
+    padding-bottom: 3%;
+
+}
+
+.logo-img{
+    width: 15%;
+    /* top right & left bottom */
+    margin: 20px 20px 50px;
+}
+
+/* pric */
+#pricing{
+    margin-top: 30px;
+    text-align: center;
+    font-family: "Montserrat-Bold";
+}
+.card-header{
+    background-color: bisque;
+}
+
+.mendi{
+    padding: 3% 15%;
+}
+
+/* cta */
+#cta{
+    padding: 10% 20%;
+    text-align: center;
+    font-family: "Montserrat-Black";
+    background-color: #ff4c68;
+    color: #fff;
+}
+.bottom-h3{
+    padding: 5% 5%;
+    font-size: 2.5rem;
+}
+
+.botom-icon{
+    margin: 5% 3% 3%;
+}
